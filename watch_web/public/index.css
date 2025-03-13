@@ -1,0 +1,44 @@
+#header .container .user {
+  display: flex;
+}
+
+#header .container .user div {
+  display: flex;
+  flex-direction: column;
+}
+
+#header .container .user img {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#header .container .user div h3 {
+  text-align: center;
+  color: white;
+  padding: 0 0;
+  border: none;
+}
+
+#header .container .user div .function {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+#header .container .user:hover div .function a {
+  color: white;
+}
+
+#header .container .user div .function a:hover {
+  color: #ae714a;
+}
+
+#header .container #main-menu .user div .function a {
+  display: inline;
+  padding: 0 0;
+  /* font-size: 8px; */
+  text-decoration: underline;
+  margin-right: 10px;
+  text-transform: lowercase;
+}
